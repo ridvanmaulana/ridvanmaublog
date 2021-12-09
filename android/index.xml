@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on ridvanmau.com</title>
-    <link>https://ridvanmau.github.io/android/</link>
+    <link>https://ridvanmaulana.github.io/ridvanmaublog/android/</link>
     <description>Recent content in Android on ridvanmau.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
     <lastBuildDate>Sat, 25 Jan 2020 02:25:10 +0000</lastBuildDate>
     
-        <atom:link href="https://ridvanmau.github.io/android/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ridvanmaulana.github.io/ridvanmaublog/android/index.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
         <title>Ridvan Maulana</title>
-        <link>https://ridvanmau.github.io/ridvan-maulana/</link>
+        <link>https://ridvanmaulana.github.io/ridvanmaublog/ridvan-maulana/</link>
         <pubDate>Thu, 09 Dec 2021 14:43:37 +0700</pubDate>
         
-        <guid>https://ridvanmau.github.io/ridvan-maulana/</guid>
+        <guid>https://ridvanmaulana.github.io/ridvanmaublog/ridvan-maulana/</guid>
         <description>&lt;p&gt;Sampurasun.&lt;/p&gt;
 &lt;hr&gt;
 &lt;figure &gt;
@@ -76,10 +76,10 @@
     
       <item>
         <title>Cara Menggabungkan Banyak Gambar Menjadi Satu PDF Di GNU/Linux</title>
-        <link>https://ridvanmau.github.io/cara-menggabungkan-gambar-menjadi-satu-pdf-gnulinux/</link>
+        <link>https://ridvanmaulana.github.io/ridvanmaublog/cara-menggabungkan-gambar-menjadi-satu-pdf-gnulinux/</link>
         <pubDate>Thu, 27 Feb 2020 22:38:12 +0000</pubDate>
         
-        <guid>https://ridvanmau.github.io/cara-menggabungkan-gambar-menjadi-satu-pdf-gnulinux/</guid>
+        <guid>https://ridvanmaulana.github.io/ridvanmaublog/cara-menggabungkan-gambar-menjadi-satu-pdf-gnulinux/</guid>
         <description>&lt;p&gt;Sampurasun.&lt;/p&gt;
 &lt;p&gt;Mungkin karena alasan tertentu Anda perlu menggabungkan banyak gambar menjadi satu berkas PDF. Di GNU/Linux
 untuk mencapai hal tersebut sangatlah mudah, hanya dengan satu baris &lt;em&gt;commandline&lt;/em&gt; saja.&lt;/p&gt;
@@ -119,10 +119,10 @@ saran sangat diterima.&lt;/p&gt;
     
       <item>
         <title>GNU/Linux Tips: Menambahkan Syntax Highlighting Pada Perintah Less</title>
-        <link>https://ridvanmau.github.io/syntax-highlighting-perintah-less/</link>
+        <link>https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/</link>
         <pubDate>Sun, 23 Feb 2020 11:24:06 +0000</pubDate>
         
-        <guid>https://ridvanmau.github.io/syntax-highlighting-perintah-less/</guid>
+        <guid>https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/</guid>
         <description>&lt;p&gt;Sampurasun.&lt;/p&gt;
 &lt;p&gt;Jika Anda sering bekerja dengan terminal, pastinya sudah tidak asing lagi dengan &lt;code&gt;less&lt;/code&gt;, sebuah perintah yang biasa
 digunakan untuk melihat konten dari sebuah atau kumpulan berkas.
@@ -157,7 +157,7 @@ $ source ~/.zprofile
   
   
     
-    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmau.github.io/syntax-highlighting-perintah-less/profile_hu337632338227b16660dc84e43bd72a7b_14150_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmau.github.io/syntax-highlighting-perintah-less/profile.png&#34; alt=&#34;Konfigurasi Profile&#34; data-action=&#34;zoom&#34;&gt;
+    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/profile_hu337632338227b16660dc84e43bd72a7b_14150_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/profile.png&#34; alt=&#34;Konfigurasi Profile&#34; data-action=&#34;zoom&#34;&gt;
   
 &lt;/figure&gt;
 
@@ -169,7 +169,7 @@ $ source ~/.zprofile
   
   
     
-    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmau.github.io/syntax-highlighting-perintah-less/nosyntax_hu20bb925a661d98f29098a2759527cf62_87522_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmau.github.io/syntax-highlighting-perintah-less/nosyntax.png&#34; alt=&#34;Output Tanpa Syntax Highlighting&#34; data-action=&#34;zoom&#34;&gt;
+    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/nosyntax_hu20bb925a661d98f29098a2759527cf62_87522_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/nosyntax.png&#34; alt=&#34;Output Tanpa Syntax Highlighting&#34; data-action=&#34;zoom&#34;&gt;
   
 &lt;/figure&gt;
 
@@ -178,7 +178,7 @@ $ source ~/.zprofile
   
   
     
-    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmau.github.io/syntax-highlighting-perintah-less/wsyntax_hua14259ceb326da843a3a51546b2a881a_88625_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmau.github.io/syntax-highlighting-perintah-less/wsyntax.png&#34; alt=&#34;Output Menggunakan Syntax Highlighting&#34; data-action=&#34;zoom&#34;&gt;
+    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/wsyntax_hua14259ceb326da843a3a51546b2a881a_88625_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/syntax-highlighting-perintah-less/wsyntax.png&#34; alt=&#34;Output Menggunakan Syntax Highlighting&#34; data-action=&#34;zoom&#34;&gt;
   
 &lt;/figure&gt;
 
@@ -195,10 +195,10 @@ pertanyaan, silahkan gunakan kolom komentar di bawah.&lt;/p&gt;
     
       <item>
         <title>Shortcut Keyboard Terminal GNU/Linux</title>
-        <link>https://ridvanmau.github.io/shortcut-keyboard-terminal-linux/</link>
+        <link>https://ridvanmaulana.github.io/ridvanmaublog/shortcut-keyboard-terminal-linux/</link>
         <pubDate>Fri, 21 Feb 2020 00:44:16 +0000</pubDate>
         
-        <guid>https://ridvanmau.github.io/shortcut-keyboard-terminal-linux/</guid>
+        <guid>https://ridvanmaulana.github.io/ridvanmaublog/shortcut-keyboard-terminal-linux/</guid>
         <description>&lt;p&gt;Sampurasun.&lt;/p&gt;
 &lt;p&gt;Shortcut atau pintasan pastinya membantu Anda untuk bekerja lebih cepat dan efisien terlepas dari
 apa pun tools yang Anda gunakan. Misalnya saat sedang mengedit berkas darpida memilih seluruh teks menggunakan
@@ -281,10 +281,10 @@ Anda yang tidak disebutkan pada list di atas melalui kolom komentar.&lt;/p&gt;
     
       <item>
         <title>Cara Mengembalikan Menu Bar Sublime Teks Editor</title>
-        <link>https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/</link>
+        <link>https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/</link>
         <pubDate>Thu, 20 Feb 2020 19:30:25 +0700</pubDate>
         
-        <guid>https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/</guid>
+        <guid>https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/</guid>
         <description>&lt;p&gt;Sampurasun.&lt;/p&gt;
 &lt;p&gt;Disengaja atau tidak, menyembunyikan menu bar mungkin menjadi salah satu upaya untuk mendapatkan antarmuka yang lebih minimalis, namun akan cukup repot jika Anda tidak tau cara mengembalikan nya. Tulisan ini akan membantu menyelsaikan permasalahan tersebut.&lt;/p&gt;
 &lt;hr&gt;
@@ -294,7 +294,7 @@ Anda yang tidak disebutkan pada list di atas melalui kolom komentar.&lt;/p&gt;
   
   
     
-    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime1_hu1da322284cd15ef4b2ecf1451e71f0b7_143580_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime1.png&#34; alt=&#34;Command Palette&#34; data-action=&#34;zoom&#34;&gt;
+    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime1_hu1da322284cd15ef4b2ecf1451e71f0b7_143580_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime1.png&#34; alt=&#34;Command Palette&#34; data-action=&#34;zoom&#34;&gt;
   
 &lt;/figure&gt;
 
@@ -306,7 +306,7 @@ Anda yang tidak disebutkan pada list di atas melalui kolom komentar.&lt;/p&gt;
   
   
     
-    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime2_hu643e663977e1ccfb22f326e49e99db67_136830_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime2.png&#34; alt=&#34;View: Toggle Menu&#34; data-action=&#34;zoom&#34;&gt;
+    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime2_hu643e663977e1ccfb22f326e49e99db67_136830_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime2.png&#34; alt=&#34;View: Toggle Menu&#34; data-action=&#34;zoom&#34;&gt;
   
 &lt;/figure&gt;
 
@@ -315,7 +315,7 @@ Anda yang tidak disebutkan pada list di atas melalui kolom komentar.&lt;/p&gt;
   
   
     
-    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime3_hu643e663977e1ccfb22f326e49e99db67_133401_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmau.github.io/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime3.png&#34; alt=&#34;Menu Bar&#34; data-action=&#34;zoom&#34;&gt;
+    &lt;img class=&#34;lazyload&#34; src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime3_hu643e663977e1ccfb22f326e49e99db67_133401_0x100_resize_lanczos_3.png&#34; data-src=&#34;https://ridvanmaulana.github.io/ridvanmaublog/cara-mengembalikan-menu-bar-sublime-teks-editor/sublime3.png&#34; alt=&#34;Menu Bar&#34; data-action=&#34;zoom&#34;&gt;
   
 &lt;/figure&gt;
 
