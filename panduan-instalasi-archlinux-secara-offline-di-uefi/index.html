@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+    
+    <link rel="stylesheet" href="https://ridvanmau.github.io/main.min.ac53fd364fc2f703046796d5a5f1ae27fd846591d2e2848cac9f49ac20d11978.css">
+  
+  <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+  <link rel="icon" href="https://ridvanmau.github.io/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://ridvanmau.github.io/icons/icon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://ridvanmau.github.io/icons/icon-32x32.png">
+  <link rel="icon" sizes="192x192" href="https://ridvanmau.github.io/icons/icon-192x192.png">
+  <link rel="apple-touch-icon" href="https://ridvanmau.github.io/icons/icon-152x152.png">
+  <link rel="shortcut icon" href="https://ridvanmau.github.io/favicon.ico">
+  <meta property="og:title" content="Panduan Instalasi Archlinux Secara Offline Di UEFI - ridvanmau.com " />
+<meta property="og:description" content="Panduan instalasi arch linux secara offline pada sistem UEFI." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ridvanmau.github.io/panduan-instalasi-archlinux-secara-offline-di-uefi/" />
+<meta property="og:image" content="https://ridvanmau.github.ioprofil/banner.png">
+<meta property="og:image" content="https://ridvanmau.github.io/panduan-instalasi-archlinux-secara-offline-di-uefi/cover.jpg"/>
+<meta property="og:site_name" content="ridvanmau.com" />
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ridvanmau.github.io/panduan-instalasi-archlinux-secara-offline-di-uefi/cover.jpg"/>
+<meta name="twitter:title" content="Panduan Instalasi Archlinux Secara Offline Di UEFI"/>
+<meta name="twitter:description" content="Panduan instalasi arch linux secara offline pada sistem UEFI."/>
+
+  <title> Panduan Instalasi Archlinux Secara Offline Di UEFI | ridvanmau.com</title>
+<meta name="description" content="Panduan instalasi arch linux secara offline pada sistem UEFI.">
+<meta name="keywords" content="">
+<link rel="canonical" href="https://ridvanmau.github.io/panduan-instalasi-archlinux-secara-offline-di-uefi/">
+<link rel="alternate" hreflang="id" href="https://ridvanmau.github.io/panduan-instalasi-archlinux-secara-offline-di-uefi/">
+<link rel="alternate" hreflang="en" href="https://ridvanmau.github.io/panduan-instalasi-archlinux-secara-offline-di-uefi/">
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/ridvanmau.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Panduan Instalasi Archlinux Secara Offline Di UEFI",
+    "headline" : "Panduan Instalasi Archlinux Secara Offline Di UEFI",
+    "description" : "Panduan instalasi arch linux secara offline pada sistem UEFI.",
+    "inLanguage" : "id-ID",
+    "image" : "https:\/\/ridvanmau.github.io\/Page%28\/posts\/panduan-instalasi-archlinux-secara-offline-di-uefi\/index.md%29",
+    "author" : "Ridvan Maulana",
+    "creator" : "Ridvan Maulana",
+    "publisher": {
+
+      "@type": "Organization",
+      "name": "Ridvan Maulana",
+      "logo" : {
+        "@type": "ImageObject",
+        "url": "https:\/\/ridvanmau.github.io\/Page%28\/posts\/panduan-instalasi-archlinux-secara-offline-di-uefi\/index.md%29"
+      } 
+    },
+    "accountablePerson" : "Ridvan Maulana",
+    "copyrightHolder" : "Ridvan Maulana",
+    "copyrightYear" : "2020",
+    "datePublished": "January 24, 2020",
+    "dateModified" : "March 7, 2020",
+    "url" : "https:\/\/ridvanmau.github.io\/panduan-instalasi-archlinux-secara-offline-di-uefi\/",
+    "sameAs": [
+        "https://facebook.com/ridvanmaulana",
+        "https://twitter.com/ridvanmaulana",
+        "https://instagram.com/ridvanmaulana",
+        "https://linkedin.com/in/"
+      ],
+    "wordCount" : "881",
+    "keywords" : [ "Blog" ]
+}
+</script>
+
+</head>
+
+  <body>
+    <div class="wrapper">
+      
+    <header class="main_header">
+      <div class="wrapped">
+      <span class="title">
+        <a href="https://ridvanmau.github.io/">
+          
+            <img src="https://ridvanmau.github.io/logo.svg" alt="Halimboi"/>
+          
+        </a>
+      </span>
+
+      <input id="burger" type="checkbox" />
+
+      <label class="burger_label" for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      
+<nav class="main_menu">
+  <ul>
+    
+    <li>
+      <a class="nav-item" href="https://ridvanmau.github.io/cerita" title="Cerita kehidupan">Cerita</a>
+      </li>
+    
+    <li>
+      <a class="nav-item" href="https://ridvanmau.github.io/teknologi" title="Informasi seputar teknologi">Teknologi</a>
+      </li>
+    
+    <li>
+      <a class="nav-item" href="https://ridvanmau.github.io/pendidikan" title="Seputar pendidikan">Pendidikan</a>
+      </li>
+    
+    <li>
+      <a class="nav-item" href="https://ridvanmau.github.io/kesehatan" title="Seputar kesehatan">Kesehatan</a>
+      </li>
+    
+    <li>
+      <a class="nav-item" href="https://ridvanmau.github.io/hobi" title="Berbagi cerita hobi">Hobi</a>
+      </li>
+    
+    <li>
+      <a class="nav-item" href="https://ridvanmau.github.io/otomotif" title="Seputar otomotif">Otomotif</a>
+      </li>
+    
+  </ul>
+</nav>
+
+      <div class="social">
+  
+    <a href="https://instagram.com/ridvanmaulana">
+      <svg width="18" height="18" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+    </a>
+  
+  
+    <a href="https://twitter.com/ridvanmaulana">
+      <svg role="img" width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <title>Twitter</title>
+        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+    </a>
+  
+  
+  
+    <a href="https://facebook.com/ridvanmaulana">
+      <svg width="18" height="18" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg>
+    </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+      </div>
+    </header>
+
+
+      
+
+<div class="post-img" style="background: url('https://ridvanmau.github.io/panduan-instalasi-archlinux-secara-offline-di-uefi/cover.jpg') no-repeat 50% / cover"></div>
+<div class="post-title">
+  <span class="category">
+    
+    <a class="no-decoration" href="https://ridvanmau.github.io/linux">linux</a>
+     ↠
+    24 januari 2020
+  </span>
+  <h1 class="medium"> Panduan Instalasi Archlinux Secara Offline Di UEFI</h1>
+  <h3>Instalasi Arch Linux Secara Offline Di UEFI</h3>
+</div>
+<div class="main post">
+  
+  
+
+  <p>Permasalahan umum yang sering terjadi ketika hendak melakukan instalasi Arch Linux yaitu tidak adanya koneksi internet atau kecepatan internet yang lambat. Selain itu, belum didukung/terinstalnya driver WIFI juga menjadi faktor <em><strong>sulitnya</strong></em> melakukan instalasi Arch Linux. Namun bagi sebagian orang yang memiliki perangkat Andoid atau internet rumahan, permasalah tersebut dapat diatasi dengan mengkoneksikan internet lewat <strong>USB Tethring</strong> atau kabel <strong>LAN</strong>. Setidaknya itulah pendapat saya.</p>
+<p>Pada dasarnya proses instalasi Arch Linux secara offline ini yaitu dengan mengkopi seluruh isi dari file <strong>archiso</strong> ke media yang menjadi target instalasi, misalnya Hard Disk atau Flash Disk. Tentu ada beberapa berkas dan direktori yang nantinya akan dihapus. Biasanya berkas dan direktori tersebut berisikan service atau konfigurasi yang diperlukan untuk menjalankan <em><strong>live session</strong></em> Arch Linux.</p>
+<p>Perlu digarisbawahi bahwa panduan ini ditujukan untuk Anda yang pernah atau sudah berhasil melakukan instalasi Arch Linux secara normal(<strong>baca</strong>: pacstrap) yang mana akan mengunduh paket-paket yang diperlukan kedalam media instalasi.</p>
+<blockquote>
+<p>Like always, do with your own risk.</p>
+</blockquote>
+<h2 id="menyiapkan-partisi">Menyiapkan Partisi</h2>
+<p>Untuk membuat partisi, Anda dapat menggunakan aplikasi perkakas <code>cgdisk</code> atau <code>cfdisk</code>.
+Sebagai contoh, berikut skema partisi yang telah saya buat :</p>
+<ul>
+<li><strong>/dev/sda1</strong>, 4GB untuk partisi swap</li>
+<li><strong>/dev/sda2</strong>, 1GB untuk partisi /boot/uefi</li>
+<li><strong>/dev/sda3</strong>, 20GB untuk partisi / (baca: root)</li>
+<li><strong>/dev/sda4</strong>, 20GB untuk partisi /home</li>
+</ul>
+<h2 id="memformat-partisi">Memformat Partisi</h2>
+<p><strong>PERINGATAN</strong> : ketika hendak melakukan format pada partisi, pastikan kembali partisi tersebut benar-benar partisi yang tepat. Anda tidak ingin kehilangan data-data penting Anda.</p>
+<p>Untuk memformat partisi yang telah dibuat, jalankan perintah berikut :</p>
+<pre tabindex="0"><code>mkswap /dev/sda1
+mkfs.fat -F 32 /dev/sda2
+mkfs.ext4 /dev/sda3 -L &quot;ArchRoot&quot;
+mkfs.ext4 /dev/sda4 -L &quot;ArchHome&quot;
+</code></pre><blockquote>
+<p>Sesuaikan /dev/sdaX dengan partisi yang telah anda buat.</p>
+</blockquote>
+<h2 id="mounting-partisi">Mounting Partisi</h2>
+<p>Setelah melakukan format pada ke-4 partisi di atas, kemudian lakukan mounting dan mengaktifkan swap.</p>
+<blockquote>
+<p>Jika Anda mengikuti skema partisi saya, maka Anda dapat langsung mengkopi perintah dibawah. Namun jika skema partisi Anda berbeda, silahkan disesuaikan.</p>
+</blockquote>
+<p><strong>PERINGATAN:</strong> periksa kembali partisi yang akan di mount, jangan sampai salah melakukan mounting.</p>
+<pre tabindex="0"><code>swapon /dev/sda1
+mount /dev/sda3 /mnt
+mkdir /mnt/{boot,home}
+mkdir /mnt/boot/efi
+mount /dev/sda2 /mnt/boot/efi
+mount /dev/sda4 /mnt/home
+</code></pre><h2 id="instal-archiso-ke-target-instalasi">Instal archiso Ke Target Instalasi</h2>
+<p>Pada langkah ini, jika Anda melaukan intalasi secara normal maka Anda akan menggunakan perintah <code>pacstrap</code> yang mana akan mengunduh paket-paket yang diperlukan ke dalam target instalasi. Namun dikarenakan kita melakukan instalasi secara offline, maka kita akan mengkopi keseluruhan isi dari <em><strong>archiso</strong></em>. Jalankan perintah berikut untuk mengkopi keseluruhan isi dari <em><strong>archiso</strong></em> :</p>
+<pre tabindex="0"><code>cp -ax / /mnt
+</code></pre><blockquote>
+<p>Opsi (-x) di atas digunakan untuk mencegah beberapa spesial direktori yang tidak seharusnya di kopi kedalam target instalasi.</p>
+</blockquote>
+<p>Setelah itu, kopi kernel image kedalam <em><strong>root</strong></em> baru :</p>
+<pre tabindex="0"><code>cp -vaT /run/archiso/bootmnt/arch/boot/$(uname -m)/vmlinuz /mnt/boot/vmlinuz-linux
+</code></pre><h2 id="generating-fstab">Generating Fstab</h2>
+<p>Mounting partisi yang telah dibuat secara permanen dengan cara memasukan nya kedalam <code>fstab</code>.</p>
+<pre tabindex="0"><code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
+</code></pre><p>Periksa kembali file <code>/mnt/etc/fstab</code> untuk memastikan tidak ada kesalahan.</p>
+<h2 id="masuk-kedalam-lingkungan-chroot">Masuk Kedalam Lingkungan Chroot</h2>
+<p>Setelah melakukan langkah-langkah diatas, masuk kedalam lingkungan chroot untuk mengkonfigurasi sistem baru.
+Jalankan perintah berikut :</p>
+<pre tabindex="0"><code>arch-chroot /mnt /bin/bash
+</code></pre><blockquote>
+<p>Catatan: Sebelum melakukan panduan Instalasi lainnya, perlu untuk menghilangkan jejak lingkungan Live (dengan kata lain, penyesuaian archiso yang tidak sesuai dengan lingkungan non-Live).</p>
+</blockquote>
+<ul>
+<li><strong>Mengembalikan konfigurasi journald</strong></li>
+</ul>
+<pre tabindex="0"><code>sed -i 's/Storage=volatile/#Storage=auto/' /etc/systemd/journald.conf
+</code></pre><ul>
+<li><strong>Menghapus speasial rule udev</strong></li>
+</ul>
+<pre tabindex="0"><code>rm /etc/udev/rules.d/81-dhcpcd.rules
+</code></pre><ul>
+<li><strong>Mematikan dan menghapus service yang dibuat archiso</strong></li>
+</ul>
+<pre tabindex="0"><code>systemctl disable pacman-init.service choose-mirror.service
+</code></pre><pre tabindex="0"><code>rm -r /etc/systemd/system/{choose-mirror.service,pacman-init.service,etc-pacman.d-gnupg.mount,getty@tty1.service.d}
+</code></pre><pre tabindex="0"><code>rm /etc/systemd/scripts/choose-mirror
+</code></pre><ul>
+<li><strong>Menghapus spesial scripts lingkungan live</strong></li>
+</ul>
+<pre tabindex="0"><code>rm /etc/systemd/system/getty@tty1.service.d/autologin.conf
+</code></pre><pre tabindex="0"><code>rm /root/{.automated_script.sh,.zlogin}
+</code></pre><pre tabindex="0"><code>rm /etc/mkinitcpio-archiso.conf
+</code></pre><pre tabindex="0"><code>rm -r /etc/initcpio
+</code></pre><ul>
+<li><strong>Import archlinux keys</strong></li>
+</ul>
+<pre tabindex="0"><code>pacman-key --init
+pacman-key --populate archlinux
+</code></pre><h2 id="konfigurasi-sistem-baru">Konfigurasi Sistem Baru</h2>
+<p>Ketika sudah berada didalam lingkungan chroot sistem baru, maka saatnya melakukan konfigurasi seperti <strong>zona waktu</strong>, <strong>bahasa</strong>, <strong>hostname</strong>, <strong>user</strong>, dan <strong>group</strong>.</p>
+<h2 id="mengatur-zona-waktu">Mengatur Zona Waktu</h2>
+<p>Waktu Indonesia Barat(<strong>WIB</strong>)</p>
+<pre tabindex="0"><code>ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+</code></pre><p>Waktu Indonesia Tengah (<strong>WITA</strong>)</p>
+<pre tabindex="0"><code>ln -sf /usr/share/zoneinfo/Asia/Pontianak /etc/localtime
+</code></pre><p>Waktu Indonesia Timur (<strong>WIT</strong>)</p>
+<pre tabindex="0"><code>ln -sf /usr/share/zoneinfo/Asia/Jayapura /etc/localtime
+</code></pre><p>Setelah memilih zona waktu, jalankan perintah berikut :</p>
+<pre tabindex="0"><code>hwclock --systohc --utc
+</code></pre><h2 id="mengatur-locale-atau-bahasa">Mengatur Locale atau Bahasa</h2>
+<pre tabindex="0"><code>nano /etc/locale.gen
+</code></pre><p>Kemudian hilangkan tanda (<strong>#</strong>) pada baris berikut :</p>
+<pre tabindex="0"><code>en_US.UTF-8 UTF-8
+id_ID.UTF-8 UTF-8
+</code></pre><p>Save dan keluar.</p>
+<p>Kemudian jalankan perintah berikut :</p>
+<pre tabindex="0"><code>nano /etc/locale.conf
+</code></pre><p>Lalu tambahkan baris berikut :</p>
+<pre tabindex="0"><code>LC_COLLATE=C
+LANG=en_US.UTF-8
+LC_TIME=id_ID.UTF-8
+</code></pre><p>Kemudian jalankan perintah <code>locale-gen</code>.</p>
+<h2 id="mengatur-hostname">Mengatur Hostname</h2>
+<p>Untuk membuat file hostname, jalankan perintah berikut:</p>
+<pre tabindex="0"><code>echo nama-anda &gt; /etc/hostname
+</code></pre><h2 id="membuat-group-dan-user">Membuat Group dan user</h2>
+<p>Untuk membuat group, user dan mengatur password, jalankan perintah berikut :</p>
+<pre tabindex="0"><code>groupadd sudo
+useradd -m -g users -G sudo,power,storage user-anda
+</code></pre><p>Kemudian edit file <code>sudoers</code>.</p>
+<pre tabindex="0"><code>nano /etc/sudoers
+</code></pre><p>Carilah baris dibawah ini, lalu hilangkan tanda (<strong>#</strong>).</p>
+<pre tabindex="0"><code>%sudo ALL=(ALL)
+</code></pre><p>Save dan keluar.</p>
+<p>Untuk mengatur password user, jalankan perintah berikut :</p>
+<pre tabindex="0"><code>passwd user-anda
+passwd root
+</code></pre><h2 id="initramfs">Initramfs</h2>
+<p>Untuk membuat initramfs baru, jalankan perintah berikut :</p>
+<pre tabindex="0"><code>mkinitcpio -P
+</code></pre><h2 id="instal-grub">Instal GRUB</h2>
+<p>Selah melakukan langkah-langkah diatas, saatnya untuk melakukan instalasi GRUB.</p>
+<pre tabindex="0"><code>grub-install /dev/sdX
+grub-mkconfig -o /boot/grub/grub.cfg
+</code></pre><blockquote>
+<p>Perlu di ingat bahwa /dev/<strong>sdX</strong> merupakan disk yang menjadi target instalasi(misalnya, /dev/sda), bukan sub-partisi seperti /dev/sda1.</p>
+</blockquote>
+<p>Sampai disini proses instalasi sudah selesai, Anda dapat keluar dari lingkungan chroot dan melakukan reboot pada sistem. Namun, untuk menghindari hal-hal yang tidak diinginkan sebaiknya melakukan <strong>umount</strong> pada partisi yang sebelumnya telah di <strong>mount</strong>. Dan selamat anda telah berhasil melakukan instalasi Arch Linux secara offline.</p>
+<h2 id="penutup">Penutup</h2>
+<p>Sebenarnya tulisan ini saya khususkan untuk menjadi catatan pribadi saja, dikarenakan seringnya saya melakukan proses instal ulang. Namun jika Anda merasa terbantu dengan tulisan ini, saya akan sangat bersyukur.
+Mohon maaf jika ada kesalahan-kesalahan dalam penulisan, saat ini saya masih dalam proses pembelajaran dalam menulis.</p>
+<p>Jika dirasa ada yang kurang jelas, atau Anda ingin memberi saya masukan, Anda dapat menuliskan komentar dibawah.</p>
+<p>Terima Kasih sudah menyempatkan waktu untuk membaca panduan ini, semoga dapat bermanfaat dan membantu bagi Anda.</p>
+<p><strong>Referensi</strong> :</p>
+<ul>
+<li><a href="https://www.emirar.com/2018/03/instal-arch-linux-uefi.html?m=1">Emirar</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Offline_installation">Arch Wiki</a></li>
+</ul>
+
+  
+  <div class="love-post center" data-love-id="halimboi_38ef93d6a64df43deaf6b1398f14c63b">
+  <button class="love-post-btn cemter" title="Suka postingan ini?" type="button">
+    <span class="love-post-icon">
+        <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path></svg>
+    </span>
+  </button>
+  <div class="love-post-count">Memuat...</div>
+</div>
+
+  <div id="comments" class="thin"><div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+  if (window.location.hostname == "localhost")
+      return;
+
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  var disqus_shortname = 'ridvanmau';
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript> <a href="http://disqus.com/?ref_noscript"> Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink"> <span class="logo-disqus">Disqus</span></a>
+
+</div>
+</div>
+<div class="related-wrapper">
+  <div class="related">
+  
+</div>
+</div>
+
+
+    </div>
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 55,
+  backgroundColor: '#17181E',
+  textColor: '#fff'
+})</script>
+
+    <footer class="t09">
+    © 2021 <a href="https://ridvanmau.github.io">RidvanMaulana</a> | <a href="https://ridvanmau.github.io/about">About Me</a> | <a href="https://ridvanmau.github.io/privacy-policy">Privacy Policy</a>
+</footer>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155099144-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-155099144-3');
+  </script>
+
+
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+      
+      <script src="https://ridvanmau.github.io/js/main.min.064571c6076901415fe6c93f6e7a06ef44865e61607c826f23cc67841a47d021.js" integrity="sha256-BkVxxgdpAUFf5sk/bnoG70SGXmFgfIJvI8xnhBpH0CE="></script>
+    
+  </body>
+</html>
